@@ -16153,8 +16153,8 @@ function SocialProfiles(_ref) {
     if (selectedIcon) {
       var newProfiles = [].concat(_toConsumableArray(profiles), [{
         icon: selectedIcon,
-        color: "#fff",
-        bgColor: "#000",
+        // color: "#fff",
+        // bgColor: "#000",
         link: "#",
         isExpanded: false
       }]);
