@@ -5807,7 +5807,7 @@ var attributes = _objectSpread(_objectSpread(_objectSpread(_objectSpread(_object
     type: "number"
   }
 }, Object(_util_helpers__WEBPACK_IMPORTED_MODULE_4__["generateResponsiveRangeAttributes"])(_constants_rangeNames__WEBPACK_IMPORTED_MODULE_3__["rangeIconSize"], {
-  defaultRange: 20,
+  defaultRange: 35,
   noUnits: true
 })), Object(_util_helpers__WEBPACK_IMPORTED_MODULE_4__["generateResponsiveRangeAttributes"])(_constants_rangeNames__WEBPACK_IMPORTED_MODULE_3__["rangeIconPadding"], {
   defaultRange: 1,
@@ -5837,7 +5837,11 @@ var attributes = _objectSpread(_objectSpread(_objectSpread(_objectSpread(_object
     left: 1
   } // noBorder: true,
 
-})), Object(_util_helpers__WEBPACK_IMPORTED_MODULE_4__["generateDimensionsAttributes"])(_constants_dimensionsConstants__WEBPACK_IMPORTED_MODULE_0__["tmbWrapMarginConst"])), Object(_util_helpers__WEBPACK_IMPORTED_MODULE_4__["generateDimensionsAttributes"])(_constants_dimensionsConstants__WEBPACK_IMPORTED_MODULE_0__["tmbWrapPaddingConst"]));
+})), Object(_util_helpers__WEBPACK_IMPORTED_MODULE_4__["generateDimensionsAttributes"])(_constants_dimensionsConstants__WEBPACK_IMPORTED_MODULE_0__["tmbWrapMarginConst"])), Object(_util_helpers__WEBPACK_IMPORTED_MODULE_4__["generateDimensionsAttributes"])(_constants_dimensionsConstants__WEBPACK_IMPORTED_MODULE_0__["tmbWrapPaddingConst"], {
+  top: 20,
+  bottom: 20,
+  isLinked: false
+}));
 
 /* harmony default export */ __webpack_exports__["default"] = (attributes);
 

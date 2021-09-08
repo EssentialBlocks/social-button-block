@@ -143,7 +143,7 @@ const attributes = {
 	// Responsive Range Controller attributes
 
 	...generateResponsiveRangeAttributes(rangeIconSize, {
-		defaultRange: 20,
+		defaultRange: 35,
 		noUnits: true,
 	}),
 
@@ -221,7 +221,11 @@ const attributes = {
 	// dimensions Control related Attributes
 
 	...generateDimensionsAttributes(tmbWrapMarginConst),
-	...generateDimensionsAttributes(tmbWrapPaddingConst),
+	...generateDimensionsAttributes(tmbWrapPaddingConst, {
+		top: 20,
+		bottom: 20,
+		isLinked: false,
+	}),
 };
 
 export default attributes;
