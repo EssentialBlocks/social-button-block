@@ -49,7 +49,7 @@ import {
 	tmbWrapPaddingConst,
 } from "./constants/dimensionsConstants";
 
-import { WrpBgConst, } from "./constants/backgroundsConstants";
+import { WrpBgConst } from "./constants/backgroundsConstants";
 
 import {
 	WrpBdShadowConst,
@@ -381,7 +381,10 @@ function Inspector({ attributes, setAttributes }) {
 											// noBorder
 										/>
 									</PanelBody>
-									<PanelBody title={__("Icons Text Shadow")} initialOpen={false}>
+									<PanelBody
+										title={__("Icons Text Shadow")}
+										initialOpen={false}
+									>
 										<ColorControl
 											label={__("Shadow Color")}
 											color={textShadowColor}
